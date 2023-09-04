@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(0deg, #636858 0%, #4a7392 100%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  width: 400px;
+  min-height: 400px;
+  background-color: #3c4f5f;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 255, 221, 0.4);
+  border: 2px solid white;
+}
+section #display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 85px;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #3c4f5f;
+  background-color: #a9b48f;
+  padding: 10px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+section #display h1 {
+  width: 100%;
+  font-size: 28pt;
+  text-align: right;
+  color: white;
+}
+section #buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 430px;
+  padding: 10px 0px;
+  user-select: none;
+}
+section #buttons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row;
+}
+section #buttons li {
+  font-size: 24pt;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  list-style: none;
+  background-color: #456075;
+  border-radius: 10px;
+}
+section #buttons li:hover {
+  background-color: white;
+  color: #456075;
+  cursor: pointer;
+  transition: 0.5s;
+}
+section #buttons .operators:hover {
+  background-color: #2ad5f3;
+}
+section #buttons #clear:hover {
+  background-color: #ff98ad;
+}
+section #buttons #delet:hover {
+  background-color: #ebd976;
+}
+section #buttons #equal:hover {
+  background-color: #87ffa1;
+}
+
+/*# sourceMappingURL=style.css.map */
